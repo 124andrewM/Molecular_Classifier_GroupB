@@ -1,7 +1,8 @@
 # Equilibrium Molecule Classifier
 
-## Purpose
-This README is to provide future developers an overview of what is provided in this project and the workflow to follow.
+This project is a Graph Neural Network which classifies a molecule as being in equilibrium or out of equilibrium based on its atoms and their xyz coordinates. For a detailed usage instructions please refer to the Client Instructions PDF.
+
+This README is to provide future developers an overview of what is provided in this project and the workflow to follow. The two core training notebooks contain details instructions along with the Data_Pipeline.png file.
 
 ## Document List
 1. xyz_training_model.ipynb
@@ -27,6 +28,9 @@ This README is to provide future developers an overview of what is provided in t
 7. Pandas version 2.2.3+
 8. Matplotlib
 5. Other dependencies are included in the notebooks as imports e.g. numpy, keras and so on.
+
+## Project Usage Flow Chart
+![Data Pipeline](Data_Pipeline.png)
 
 ## Workflow Steps
 1. If working with the QM9 dataset there is a script `log_extractor.pl` which contains instructions for extracting the required moleculer spatial coordinates from the log files.
